@@ -1,0 +1,23 @@
+{
+  "name": "usdl-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "dependencies": {
+    "parse-usdl": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "webpack": "^4.17.2",
+    "webpack-command": "^0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
